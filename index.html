@@ -48,6 +48,17 @@
   <script src="js/index.js"></script>
 
   <style>
+    .gradient-text {
+        background-image: linear-gradient(45deg, #4c96d7, #6cdc79);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+      }
+    .title span {
+        background: -webkit-linear-gradient(45deg, #7ed56f, #28b485);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
     code {
       white-space: pre-wrap;
@@ -298,12 +309,14 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            
-            <h1 style="font-weight: bold">
-              <img src="img/idea23d.png" style="height: 48px; vertical-align: middle;" />
-                <!-- <b style="color: #5a3e91">Idea</b>-<b style="color: #17bfe9">2</b>-<b style="color: #d73d5f">3D</b>: -->
-                Collaborative LMM Agents Enable 3D Model Generation from Interleaved Multimodal Inputs
-            </h1>
+            <!-- <div class="d-flex align-items-center justify-content-center"> -->
+              <h1 >
+                <span class="gradient-text">Idea-2-3D</span>
+                
+                <span>
+                 : Collaborative LMM Agents Enable 3D Model Generation from Interleaved Multimodal Inputs
+                </span>
+              </h1>
 
             <!-- <h1 style="font-weight: bold; line-height: 100px;">
               <img src="img/idea23d.png" style="height: 48px; vertical-align: middle;" />
